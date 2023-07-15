@@ -16,6 +16,11 @@
   cursor: progress;
   border: 0;
 }
+.section-title {
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+  }
 
 /* header styles */
 header {
@@ -28,11 +33,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nav-title {
-  font-size: 2.8rem;
-  color: #131313;
-  font-weight: 700;
-}
+
 nav > ul {
   display: flex;
 }
