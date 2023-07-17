@@ -201,8 +201,8 @@ footer {
     margin-left: 0;
   }
   .ten-years-bedge {
-    position: static;
-    max-width: 300px;
+    position: relative;
+    max-width: 250px;
   }
   .teams-img-container {
     grid-template-columns: 1fr;
@@ -210,7 +210,7 @@ footer {
   .teams-content,
   .facts-card-container {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
   }
   .facts-card-container {
     gap: 20px;
@@ -224,7 +224,7 @@ footer {
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   header {
-    padding: 40px;
+    padding: 50px;
   }
   nav,
   .features,
