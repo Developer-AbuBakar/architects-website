@@ -111,25 +111,25 @@ main {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.features-img img{
+.features-img img {
   height: 90%;
   margin-left: 90px;
 }
 .ten-years-bedge {
   border-radius: 8px;
   background: #ff900e;
-  color: #FFF;
+  color: #fff;
   width: 340px;
   padding: 40px;
   text-align: center;
   position: relative;
   bottom: 100px;
 }
-.ten-years-bedge h2{
+.ten-years-bedge h2 {
   font-size: 4rem;
   margin: 0;
 }
-.ten-years-bedge{
+.ten-years-bedge {
   font-size: 1.5rem;
 }
 /* facts section */
@@ -163,10 +163,24 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
+  gap: 100px;
 }
 .sponspors-img-container img {
   width: 165px;
+}
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  height: 100px;
+  /* margin-left: 250px;
+  margin-right: 250px; */
+}
+.footer-title{
+  padding: 45px;
+  text-align: center;
 }
 
 /* responsive styles */
@@ -182,13 +196,13 @@ main {
   .sponspors-img-container {
     flex-direction: column;
   }
-  .features-img img{
+  .features-img img {
     width: 90%;
     margin-left: 0;
   }
-  .ten-years-bedge{
-   position: static;
-   max-width: 300px;
+  .ten-years-bedge {
+    position: static;
+    max-width: 300px;
   }
   .teams-img-container {
     grid-template-columns: 1fr;
@@ -200,6 +214,10 @@ main {
   }
   .facts-card-container {
     gap: 20px;
+  }
+  .footer-title{
+    padding: 0px;
+    padding-top: 15px;
   }
 }
 
